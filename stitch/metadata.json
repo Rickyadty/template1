@@ -1,0 +1,65 @@
+{
+  "project": {
+    "title": "Amara Villa Luxury Landing Page",
+    "id": "339493315482619835"
+  },
+  "screen": {
+    "title": "Amara Villa - Luxury Tropical Landing Page",
+    "id": "b0ea10a549e3495297c989b1b31324ad",
+    "deviceType": "DESKTOP",
+    "width": 2560,
+    "height": 10108,
+    "htmlFile": "amara_villa_landing_page.html",
+    "screenshotFile": "amara_villa_screenshot.png",
+    "images": [
+      {
+        "name": "01_hero_pool_pavilion.jpg",
+        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAFkHnyRGVEUcHBKpH0ka1rIKqH37k4yFCSiknju5M8AR_Y3pflwyLF5Qz4_rumsQ46s_R3zFhuL3NF1LY2WexlsHb9PIM7vjYh4gY43x9ODXSi7CckCFLKkAT2eMBrWVC6XYV0uzow2ebBedVJ421U2GARwqW98l6M7qnHn2-KiQ-llbdMtTI7Z4nSlxbYMyZKoNoXo6x9gXcV36PrxYXR9ILdYnZb8_JBjsUh0A",
+        "localStitchPath": "stitch/images/01_hero_pool_pavilion.jpg",
+        "publicPath": "public/images/stitch/01_hero_pool_pavilion.jpg"
+      },
+      {
+        "name": "02_pool_deck.jpg",
+        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuCMIE--QKRvzJADKDe9ENdyp68Wynpgc-E1UxjZb8hPSRxaGTwMg5kd_2u5-HFv7inzVS20Lk7qZA66UF8q9vUfNkR4O_8sY0BJS4j5GhV_hIbJlRd7RkBKodXHEAt63y8PqaDh2H-OxdYnouDDzV3f5af6SIqSf5zWBrbVvAF_l87A8UC14rdp6m-lFDy96HcmolAltmPB9okloxlG35syfKwu3rehD2uciAbAOg",
+        "localStitchPath": "stitch/images/02_pool_deck.jpg",
+        "publicPath": "public/images/stitch/02_pool_deck.jpg"
+      },
+      {
+        "name": "03_master_bedroom.jpg",
+        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAr-tLekUp9XlKGXfG1Gp4HuxBzTf0xrr-nTQgy5qOVn9KUG6YpaDA-UEhhL0Qwu8_2_NQd87IzVF4sDauphfX5quJKJEB1TZ-8PKqVRrhamd-kVvAB_KN8_VNtvlQ3Bo9zwhcs0bYy403jztVJ--10TSPurCf2OkjynDfsV6zpjhPrY2uPm2AioIpxUCIrB4pZ44aG_ve6HugjEutLeraAuqxCNQloOVjLftN0hQ",
+        "localStitchPath": "stitch/images/03_master_bedroom.jpg",
+        "publicPath": "public/images/stitch/03_master_bedroom.jpg"
+      },
+      {
+        "name": "04_living_room.jpg",
+        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuCVYbMYl8RAFpNAtHbRy7fx5qLJ1KRXmijWhEiTvj0Om4lIcKEtDJk2GuGo8d7fUSvxc9Odhbska7yBo76trxIOfgVKp7nZZ9VK5tIWALjnHT-eYD2PAmYo5cEsU4YvgXM-GyZOw4zZiG7wKccewKNg2bNVh0w_JGIQrSjt18N1m9ATEZHQrZxUqgShrn_idKaioFjZq_XeM9rSRb7_iAOODclXh-g_JtZ5uap9KQ",
+        "localStitchPath": "stitch/images/04_living_room.jpg",
+        "publicPath": "public/images/stitch/04_living_room.jpg"
+      },
+      {
+        "name": "05_dining_table.jpg",
+        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuA9Shz8A7bDY9jmV8S2d_D6JzNOhJNRNWPwa7K__clv8IdNrKHhLHY5EMWn58Hn9-CEE4nKnxll2vIUO2E4RC7ZLbb7-mUP1OnlznByJVn2gm5kcvhG0YsHudRxqZJk47MUWdroSqRRSF_Ti_fWaazmsswEJcynKzAJbVa4rc9Mprtms18QwPv6V2eWl30Dfiwx06FUUBkPvJz-10ozLnmA8RsXCRgwbbvbFXWrng",
+        "localStitchPath": "stitch/images/05_dining_table.jpg",
+        "publicPath": "public/images/stitch/05_dining_table.jpg"
+      },
+      {
+        "name": "06_morning_bedroom.jpg",
+        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAGdXghvF1PoAsm6CYNXSQcKYxIT-aRGkpFMmMLC536b9Df-rCi6lvPmjDnfU_JWIYYTw0eH8cEa0W6hJYOlBgFPyOjIsJ25EIfLfr_JxdAIsvr9eTY8lvpk0yoW9AN2s1utWs8lkL6JC16leDlne3mcGWhLqT2yR0p8F3GhrhrkXMgqgWbI4_vUKTMQD-SQWGAVidMHG0xGhT7ItEVjM6r9d_YcDsHBIXY3ygYRw",
+        "localStitchPath": "stitch/images/06_morning_bedroom.jpg",
+        "publicPath": "public/images/stitch/06_morning_bedroom.jpg"
+      },
+      {
+        "name": "07_garden_breakfast.jpg",
+        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuB9YBHh5FXcC0RegckjT268VrZSuiMjAYshI8epmoWrQZXvtzBGXXmvzQFy13gI2LnIpZE9nlq5wm54eZ441CtGEG3eMZx5AxCgas9zId0f5YJ3UDJeXmsdQNwGUMZc4ClrdgztYdHZ3bBmjqRxZqRqsl-xPN8TU3RY757OdTeHpBUYYUh_ei0C3HYzqaTTHE8AGhNJCpO98ikMwOIkthIOmdtwud_HbyMwrR4BSQ",
+        "localStitchPath": "stitch/images/07_garden_breakfast.jpg",
+        "publicPath": "public/images/stitch/07_garden_breakfast.jpg"
+      },
+      {
+        "name": "08_twilight_view.jpg",
+        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuCdUlBDOWqzZoxGIu4f0J5tUR9HxAiZUVBy2_L0eY76CX2YoLyWLjW-mwELWzYKPq3yqw_BcZyBD37HGuN3cInFQH9wquLAfbNxyUSNeGWfpKBhfeDX8zcIQJaZ9YHtstehhflo7Rx71X_8LgOldc8WZGCc_bV4u0ls4D3CtcIExf274F52RygiUKSLj-P61FFl7Catw9shuLxet3RGJv5eplX3nrQ4vU7yXv-03Q",
+        "localStitchPath": "stitch/images/08_twilight_view.jpg",
+        "publicPath": "public/images/stitch/08_twilight_view.jpg"
+      }
+    ]
+  }
+}

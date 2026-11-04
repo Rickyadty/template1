@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Amara Villa — A quieter presence. A lasting impression.</title>
+<!-- Tailwind CSS CDN with forms and container queries plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Plus Jakarta Sans & Cormorant Garamond -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            stone: {
+              50: '#FAF9F5',
+              100: '#F5F3ED',
+              200: '#EBE7DD',
+              300: '#DDD7CA',
+              800: '#2A2926',
+              900: '#141413',
+            },
+            sand: '#FAF8F5',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Cormorant Garamond"', 'serif'],
+          },
+          letterSpacing: {
+            widest: '.2em',
+          }
+        }
+      }
+    }
+  </script>
+<style data-purpose="custom-styling">
+    ::selection {
+      background-color: #141413;
+      color: #FAF9F5;
+    }
+    .custom-backdrop-blur {
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+  </style>
+</head>
+<body class="bg-[#FAF8F5] text-stone-900 font-sans antialiased selection:bg-stone-900 selection:text-white">
+<!-- BEGIN: Navigation -->
+<header class="sticky top-0 z-50 bg-[#FAF8F5]/90 backdrop-blur-md border-b border-stone-200/60 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a class="font-serif tracking-widest text-2xl font-medium text-stone-900 uppercase" href="#">
+        AMARA
+      </a>
+<!-- Center Navigation Links -->
+<nav class="hidden md:flex items-center space-x-10 text-[13px] tracking-wide text-stone-600 font-medium">
+<a class="hover:text-stone-900 transition-colors" href="#tentang">Tentang Amara</a>
+<a class="hover:text-stone-900 transition-colors" href="#ruang">Ruang &amp; Galeri</a>
+<a class="hover:text-stone-900 transition-colors" href="#pengalaman">Pengalaman</a>
+</nav>
+<!-- Action Button -->
+<div>
+<a class="inline-flex items-center gap-1.5 text-xs font-medium px-5 py-2.5 rounded-full border border-stone-800 text-stone-900 hover:bg-stone-900 hover:text-white transition-all duration-200" href="#reservasi">
+<span>Rencanakan Menginap</span>
+<span class="text-sm leading-none">↗</span>
+</a>
+</div>
+</div>
+</header>
+<!-- END: Navigation -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 pt-4 pb-12">
+<!-- Main Visual Frame -->
+<div class="relative w-full h-[650px] lg:h-[720px] rounded-3xl overflow-hidden shadow-sm">
+<img alt="Amara Villa Ubud infinity pool and pavilion in sunlight" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFkHnyRGVEUcHBKpH0ka1rIKqH37k4yFCSiknju5M8AR_Y3pflwyLF5Qz4_rumsQ46s_R3zFhuL3NF1LY2WexlsHb9PIM7vjYh4gY43x9ODXSi7CckCFLKkAT2eMBrWVC6XYV0uzow2ebBedVJ421U2GARwqW98l6M7qnHn2-KiQ-llbdMtTI7Z4nSlxbYMyZKoNoXo6x9gXcV36PrxYXR9ILdYnZb8_JBjsUh0A"/>
+<!-- Subtle Vignette / Gradient -->
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-black/20"></div>
+<!-- Huge Lowercase Center Overlay Watermark -->
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
+<span class="font-serif text-[18vw] font-light text-white/30 tracking-tight leading-none">
+            amara
+          </span>
+</div>
+<!-- Hero Bottom Content -->
+<div class="absolute bottom-10 left-8 right-8 lg:bottom-12 lg:left-12 lg:right-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div class="max-w-xl text-white">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-[11px] uppercase tracking-wider text-white mb-3">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              A private estate in Bali
+            </span>
+<h1 class="text-3xl sm:text-4xl lg:text-5xl font-light font-serif tracking-tight text-white leading-tight">
+              Ruang untuk berhenti sejenak.
+            </h1>
+</div>
+<!-- Bottom Right Floating Feature Pill -->
+<div class="bg-white/20 backdrop-blur-md border border-white/25 text-white p-4 rounded-2xl max-w-xs flex items-center justify-between gap-4">
+<div>
+<p class="text-xs font-semibold leading-snug">Satu Villa.</p>
+<p class="text-[11px] text-white/80">Sepenuhnya untuk Anda.</p>
+</div>
+<a class="text-xs underline underline-offset-4 font-medium flex items-center gap-0.5 hover:text-white/80" href="#ruang">
+              Denah <span>↗</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Floating Availability & Booking Selector Bar -->
+<div class="mt-4 bg-white rounded-3xl p-4 lg:p-6 border border-stone-200 shadow-sm" id="reservasi">
+<form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 items-center">
+<!-- Column 1: Dates selector label -->
+<div class="lg:col-span-3 px-3">
+<label class="block text-[10px] font-semibold uppercase tracking-wider text-stone-400">Kapan Anda Ingin Beristirahat?</label>
+<div class="text-sm font-medium text-stone-800 mt-1">Pilih Tanggal Menginap</div>
+</div>
+<!-- Column 2: Check-In -->
+<div class="lg:col-span-2 border-t md:border-t-0 md:border-l border-stone-200 px-3">
+<label class="block text-[10px] font-semibold uppercase tracking-wider text-stone-400">Check In</label>
+<input class="w-full border-none p-0 mt-1 text-sm font-medium text-stone-800 focus:ring-0 bg-transparent" type="text" value="09/11/2026"/>
+</div>
+<!-- Column 3: Check-Out -->
+<div class="lg:col-span-2 border-t md:border-t-0 md:border-l border-stone-200 px-3">
+<label class="block text-[10px] font-semibold uppercase tracking-wider text-stone-400">Check Out</label>
+<input class="w-full border-none p-0 mt-1 text-sm font-medium text-stone-800 focus:ring-0 bg-transparent" type="text" value="11/11/2026"/>
+</div>
+<!-- Column 4: Tamu -->
+<div class="lg:col-span-2 border-t md:border-t-0 md:border-l border-stone-200 px-3">
+<label class="block text-[10px] font-semibold uppercase tracking-wider text-stone-400">Tamu</label>
+<select class="w-full border-none p-0 mt-1 text-sm font-medium text-stone-800 focus:ring-0 bg-transparent">
+<option>2 Dewasa</option>
+<option>4 Dewasa</option>
+<option>6 Dewasa (Penuh)</option>
+</select>
+</div>
+<!-- Column 5: Submit CTA -->
+<div class="lg:col-span-3 flex justify-end">
+<button class="w-full sm:w-auto px-8 py-3.5 bg-stone-900 hover:bg-stone-800 text-white text-xs font-medium tracking-wide rounded-full inline-flex items-center justify-center gap-2 transition-all" type="button">
+<span>Lanjutkan reservasi</span>
+<span>↗</span>
+</button>
+</div>
+</form>
+<div class="mt-4 pt-3 border-t border-stone-100 flex flex-wrap items-center justify-between text-[11px] text-stone-500 px-3">
+<span>Tarif mulai <strong>Rp 8.200.000 / malam</strong></span>
+<span class="hidden sm:inline">•</span>
+<span>Termasuk sarapan kurasi setiap pagi &amp; penjemputan bandara</span>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: SectionThePlace -->
+<section class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-24 border-t border-stone-200/80" id="tentang">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+<!-- Section Index Identifier -->
+<div class="lg:col-span-4">
+<p class="text-xs uppercase tracking-widest text-stone-400 font-semibold mb-2">01 — The Place</p>
+<p class="text-stone-500 font-serif text-lg italic">Rasa tenang yang terasa seperti rumah.</p>
+</div>
+<!-- Editorial Narrative -->
+<div class="lg:col-span-8 space-y-6">
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-stone-900 leading-tight">
+            Beberapa tempat memberi Anda pemandangan. <br class="hidden sm:inline"/>
+            Yang satu ini memberi Anda jeda.
+          </h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-4 text-stone-600 font-normal leading-relaxed text-sm">
+<p>
+              Di antara hijaunya pepohonan Ubud, Amara membayangkan cara menginap yang lebih sederhana. Pagi tanpa alarm. Percakapan tanpa terburu-buru. Satu rumah untuk Anda dan orang-orang terdekat.
+            </p>
+<p>
+              Dirancang dengan perpaduan arsitektur vernakular Bali dan ketenangan modern. Tidak ada keramaian tamu lain, hanya suara dedaunan, gemericik air, dan ruang yang benar-benar privat.
+            </p>
+</div>
+<div class="pt-4">
+<a class="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-stone-900 hover:text-stone-600 transition-colors" href="#pengalaman">
+<span>Kenali Amara</span>
+<span>↗</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: SectionThePlace -->
+<!-- BEGIN: SectionSanctuaryGallery -->
+<section class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16" id="ruang">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<span class="text-xs uppercase tracking-widest text-stone-400 font-semibold mb-2 block">02 — Your Private Sanctuary</span>
+<h2 class="text-3xl sm:text-4xl font-serif font-light text-stone-900">
+            Masuk. Tarik napas. <br/>Merasa di rumah.
+          </h2>
+</div>
+<div class="max-w-md text-right md:text-left">
+<p class="text-xs text-stone-500 mb-2">Material alami, cahaya yang hangat, dan ruang untuk menjadi diri sendiri.</p>
+<a class="inline-flex items-center gap-1 text-xs font-semibold text-stone-900 hover:text-stone-600" href="#">
+            Lihat semua galeri foto ↗
+          </a>
+</div>
+</div>
+<!-- Editorial Image Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+<!-- Main Large Photo -->
+<div class="lg:col-span-7 group relative rounded-3xl overflow-hidden bg-stone-100 min-h-[460px]">
+<img alt="Outdoor swimming pool and open deck at Amara" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMIE--QKRvzJADKDe9ENdyp68Wynpgc-E1UxjZb8hPSRxaGTwMg5kd_2u5-HFv7inzVS20Lk7qZA66UF8q9vUfNkR4O_8sY0BJS4j5GhV_hIbJlRd7RkBKodXHEAt63y8PqaDh2H-OxdYnouDDzV3f5af6SIqSf5zWBrbVvAF_l87A8UC14rdp6m-lFDy96HcmolAltmPB9okloxlG35syfKwu3rehD2uciAbAOg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 text-white">
+<p class="font-serif text-2xl font-light">Langit terbuka. Waktu milik Anda.</p>
+<p class="text-xs text-white/80 mt-1">Kolam renang privat 15 meter menghadap lembah</p>
+</div>
+</div>
+<!-- Sub Grid Right Side -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<!-- Card 1 -->
+<div class="group relative rounded-3xl overflow-hidden bg-stone-100 h-64">
+<img alt="Warm master bedroom" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAr-tLekUp9XlKGXfG1Gp4HuxBzTf0xrr-nTQgy5qOVn9KUG6YpaDA-UEhhL0Qwu8_2_NQd87IzVF4sDauphfX5quJKJEB1TZ-8PKqVRrhamd-kVvAB_KN8_VNtvlQ3Bo9zwhcs0bYy403jztVJ--10TSPurCf2OkjynDfsV6zpjhPrY2uPm2AioIpxUCIrB4pZ44aG_ve6HugjEutLeraAuqxCNQloOVjLftN0hQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+<div class="absolute bottom-5 left-5 text-white">
+<span class="text-[10px] uppercase tracking-wider opacity-80 block">Kamar Tidur Utama</span>
+<p class="font-serif text-xl font-light">Bangun lebih pelan.</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group relative rounded-3xl overflow-hidden bg-stone-100 h-64">
+<img alt="Open living room with timber furniture" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVYbMYl8RAFpNAtHbRy7fx5qLJ1KRXmijWhEiTvj0Om4lIcKEtDJk2GuGo8d7fUSvxc9Odhbska7yBo76trxIOfgVKp7nZZ9VK5tIWALjnHT-eYD2PAmYo5cEsU4YvgXM-GyZOw4zZiG7wKccewKNg2bNVh0w_JGIQrSjt18N1m9ATEZHQrZxUqgShrn_idKaioFjZq_XeM9rSRb7_iAOODclXh-g_JtZ5uap9KQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+<div class="absolute bottom-5 left-5 text-white">
+<span class="text-[10px] uppercase tracking-wider opacity-80 block">Ruang Berkumpul</span>
+<p class="font-serif text-xl font-light">Ruang untuk bercerita.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Specification Ribbon -->
+<div class="mt-6 py-4 px-6 rounded-2xl bg-white border border-stone-200 flex flex-wrap items-center justify-between text-xs text-stone-600 gap-4">
+<span class="font-semibold text-stone-900">AMARA PRIVATE VILLA</span>
+<span>• 3 Kamar Tidur Berpenyejuk Udara</span>
+<span>• Hingga 6 Tamu Dewasa</span>
+<span>• Kolam Renang Privat &amp; Bale Bengong</span>
+<span>• Butler &amp; Chef On-Demand</span>
+</div>
+</section>
+<!-- END: SectionSanctuaryGallery -->
+<!-- BEGIN: SectionAmenities -->
+<section class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-20 border-t border-stone-200/80">
+<div class="mb-12">
+<p class="text-xs uppercase tracking-widest text-stone-400 font-semibold mb-2">03 — Fasilitas Terkurasi</p>
+<h2 class="text-3xl sm:text-4xl font-serif font-light text-stone-900">
+          Semua yang perlu. Tanpa yang berlebih.
+        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+<!-- Feature 1: Narrative Card -->
+<div class="bg-white rounded-3xl p-8 border border-stone-200 flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-full bg-stone-100 flex items-center justify-center text-stone-800 mb-6">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+</svg>
+</div>
+<h3 class="text-2xl font-serif font-medium text-stone-900 mb-3">
+              Lebih banyak bersama. Lebih sedikit terganggu.
+            </h3>
+<p class="text-sm text-stone-600 leading-relaxed">
+              Satu villa utuh hanya untuk rombongan Anda. Tidak ada tamu asing di lorong atau kebisingan hotel konvensional.
+            </p>
+</div>
+<div class="pt-8">
+<span class="text-xs font-mono text-stone-400 tracking-wider">01 // EKSKLUSIVITAS PENUH</span>
+</div>
+</div>
+<!-- Center Image Card -->
+<div class="rounded-3xl overflow-hidden bg-stone-100 min-h-[320px]">
+<img alt="Interior architectural dining table with organic lamps" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9Shz8A7bDY9jmV8S2d_D6JzNOhJNRNWPwa7K__clv8IdNrKHhLHY5EMWn58Hn9-CEE4nKnxll2vIUO2E4RC7ZLbb7-mUP1OnlznByJVn2gm5kcvhG0YsHudRxqZJk47MUWdroSqRRSF_Ti_fWaazmsswEJcynKzAJbVa4rc9Mprtms18QwPv6V2eWl30Dfiwx06FUUBkPvJz-10ozLnmA8RsXCRgwbbvbFXWrng"/>
+</div>
+<!-- Feature 2: Room Capacity & Specs -->
+<div class="bg-white rounded-3xl p-8 border border-stone-200 flex flex-col justify-between">
+<div>
+<div class="text-[10px] uppercase tracking-wider text-stone-400 font-semibold mb-1">Room for Six People</div>
+<div class="font-serif text-5xl font-light text-stone-900 mb-6">06 <span class="text-sm font-sans font-normal text-stone-500">tamu satu rumah</span></div>
+<ul class="space-y-3.5 text-xs text-stone-600">
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-stone-400"></span>
+<span>Kolam renang privat &amp; dek berjemur</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-stone-400"></span>
+<span>3 kamar tidur dengan kamar mandi semi-terbuka</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-stone-400"></span>
+<span>Kecepatan Wi-Fi tinggi &amp; ruang kerja hening</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-stone-400"></span>
+<span>Dapur lengkap &amp; taman tropis rimbun</span>
+</li>
+</ul>
+</div>
+<div class="pt-8 border-t border-stone-100">
+<span class="text-xs font-mono text-stone-400 tracking-wider">02 // SPESIFIKASI PROPERTI</span>
+</div>
+</div>
+</div>
+</section>
+<!-- END: SectionAmenities -->
+<!-- BEGIN: SectionDailyRhythm -->
+<section class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-20 border-t border-stone-200/80" id="pengalaman">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-6">
+<div>
+<span class="text-xs uppercase tracking-widest text-stone-400 font-semibold mb-2 block">04 — Ritme Harian</span>
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-serif font-light text-stone-900">
+            Hari yang indah, tanpa banyak rencana.
+          </h2>
+</div>
+<!-- Interactive Phase Pill Indicator -->
+<div class="inline-flex p-1 bg-stone-200/60 rounded-full text-xs font-medium text-stone-600">
+<button class="px-4 py-1.5 rounded-full bg-white text-stone-900 shadow-sm">01 — Pagi</button>
+<button class="px-4 py-1.5 rounded-full hover:text-stone-900 transition-colors">02 — Siang</button>
+<button class="px-4 py-1.5 rounded-full hover:text-stone-900 transition-colors">03 — Malam</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Morning Light Visual Card -->
+<div class="space-y-4">
+<div class="rounded-3xl overflow-hidden h-80 bg-stone-100">
+<img alt="Morning sun rays spilling into bedroom" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGdXghvF1PoAsm6CYNXSQcKYxIT-aRGkpFMmMLC536b9Df-rCi6lvPmjDnfU_JWIYYTw0eH8cEa0W6hJYOlBgFPyOjIsJ25EIfLfr_JxdAIsvr9eTY8lvpk0yoW9AN2s1utWs8lkL6JC16leDlne3mcGWhLqT2yR0p8F3GhrhrkXMgqgWbI4_vUKTMQD-SQWGAVidMHG0xGhT7ItEVjM6r9d_YcDsHBIXY3ygYRw"/>
+</div>
+<div>
+<h3 class="font-serif text-2xl font-light text-stone-900">Bangun mengikuti cahaya.</h3>
+<p class="text-xs text-stone-500 mt-1 leading-relaxed">
+              Biarkan tirai katun tipis menyaring sinar matahari pertama. Nikmati secangkir kopi Kintamani di teras pribadi sebelum dunia terbangun.
+            </p>
+</div>
+</div>
+<!-- Garden View Visual Card -->
+<div class="space-y-4">
+<div class="rounded-3xl overflow-hidden h-80 bg-stone-100">
+<img alt="Lush green garden breakfast setup" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9YBHh5FXcC0RegckjT268VrZSuiMjAYshI8epmoWrQZXvtzBGXXmvzQFy13gI2LnIpZE9nlq5wm54eZ441CtGEG3eMZx5AxCgas9zId0f5YJ3UDJeXmsdQNwGUMZc4ClrdgztYdHZ3bBmjqRxZqRqsl-xPN8TU3RY757OdTeHpBUYYUh_ei0C3HYzqaTTHE8AGhNJCpO98ikMwOIkthIOmdtwud_HbyMwrR4BSQ"/>
+</div>
+<div>
+<h3 class="font-serif text-2xl font-light text-stone-900">Buka pintu ke taman.</h3>
+<p class="text-xs text-stone-500 mt-1 leading-relaxed">
+              Suara gemerisik daun bambu dan aroma tanah basah. Sarapan buah tropis segar disajikan di meja makan kayu jati.
+            </p>
+<a class="inline-block text-xs font-semibold text-stone-900 hover:underline mt-2" href="#">
+              Sarapan kurasi untuk Anda ↗
+            </a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: SectionDailyRhythm -->
+<!-- BEGIN: SectionFAQ -->
+<section class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-20 border-t border-stone-200/80">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-4">
+<span class="text-xs uppercase tracking-widest text-stone-400 font-semibold mb-2 block">05 — Tanya Jawab</span>
+<h2 class="text-3xl font-serif font-light text-stone-900 mb-4">
+            Hal kecil, yang baik diketahui.
+          </h2>
+<p class="text-xs text-stone-500 leading-relaxed mb-6">
+            Butuh petunjuk tambahan seputar area Ubud atau detail reservasi? Hubungi tim butler kami kapan saja.
+          </p>
+<a class="inline-flex items-center gap-1.5 text-xs font-medium px-4 py-2 rounded-full border border-stone-300 text-stone-800 hover:bg-stone-900 hover:text-white transition-all" href="#">
+<span>Panduan Kawasan Ubud</span>
+<span>↗</span>
+</a>
+</div>
+<div class="lg:col-span-8 divide-y divide-stone-200/70">
+<!-- FAQ 1 -->
+<div class="py-5">
+<details class="group" open="">
+<summary class="flex justify-between items-center font-medium cursor-pointer list-none text-sm text-stone-900">
+<span>Apakah seluruh villa untuk kami?</span>
+<span class="transition group-open:rotate-180 text-stone-400">↓</span>
+</summary>
+<p class="text-stone-600 text-xs mt-3 leading-relaxed">
+                Ya. Reservasi Amara adalah penyewaan satu villa utuh. Seluruh fasilitas, termasuk kolam renang privat, ruang makan, dan taman, sepenuhnya menjadi milik rombongan Anda selama menginap tanpa tamu lain.
+              </p>
+</details>
+</div>
+<!-- FAQ 2 -->
+<div class="py-5">
+<details class="group">
+<summary class="flex justify-between items-center font-medium cursor-pointer list-none text-sm text-stone-900">
+<span>Bagaimana dengan waktu check-in &amp; check-out?</span>
+<span class="transition group-open:rotate-180 text-stone-400">↓</span>
+</summary>
+<p class="text-stone-600 text-xs mt-3 leading-relaxed">
+                Waktu check-in dimulai pukul 14:00 WITA dan check-out pukul 12:00 WITA. Opsi early check-in atau late check-out dapat disesuaikan tergantung ketersediaan pada hari tersebut.
+              </p>
+</details>
+</div>
+<!-- FAQ 3 -->
+<div class="py-5">
+<details class="group">
+<summary class="flex justify-between items-center font-medium cursor-pointer list-none text-sm text-stone-900">
+<span>Berapa lama minimum menginap?</span>
+<span class="transition group-open:rotate-180 text-stone-400">↓</span>
+</summary>
+<p class="text-stone-600 text-xs mt-3 leading-relaxed">
+                Kami menerapkan batas minimum menginap 2 malam pada hari biasa, dan 3 malam selama musim liburan tinggi (Juli - Agustus, Desember - Januari).
+              </p>
+</details>
+</div>
+<!-- FAQ 4 -->
+<div class="py-5">
+<details class="group">
+<summary class="flex justify-between items-center font-medium cursor-pointer list-none text-sm text-stone-900">
+<span>Apakah saya bisa langsung memesan untuk acara khusus?</span>
+<span class="transition group-open:rotate-180 text-stone-400">↓</span>
+</summary>
+<p class="text-stone-600 text-xs mt-3 leading-relaxed">
+                Tentu. Amara sangat cocok untuk perayaan intim, makan malam keluarga terkurasi, atau retret privat berkapasitas maksimal 12 orang dengan koordinasi sebelumnya bersama concierge kami.
+              </p>
+</details>
+</div>
+<!-- FAQ 5 -->
+<div class="py-5">
+<details class="group">
+<summary class="flex justify-between items-center font-medium cursor-pointer list-none text-sm text-stone-900">
+<span>Bagaimana kebijakan pembatalannya?</span>
+<span class="transition group-open:rotate-180 text-stone-400">↓</span>
+</summary>
+<p class="text-stone-600 text-xs mt-3 leading-relaxed">
+                Pengembalian dana penuh tersedia untuk pembatalan hingga 14 hari sebelum tanggal kedatangan. Kami juga memfasilitasi perubahan tanggal satu kali tanpa biaya tambahan.
+              </p>
+</details>
+</div>
+</div>
+</div>
+</section>
+<!-- END: SectionFAQ -->
+<!-- BEGIN: BannerCTA -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12">
+<div class="relative rounded-3xl overflow-hidden h-[420px] flex items-center justify-center text-center">
+<img alt="Tranquil twilight view of Ubud tropics" class="w-full h-full object-cover absolute inset-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdUlBDOWqzZoxGIu4f0J5tUR9HxAiZUVBy2_L0eY76CX2YoLyWLjW-mwELWzYKPq3yqw_BcZyBD37HGuN3cInFQH9wquLAfbNxyUSNeGWfpKBhfeDX8zcIQJaZ9YHtstehhflo7Rx71X_8LgOldc8WZGCc_bV4u0ls4D3CtcIExf274F52RygiUKSLj-P61FFl7Catw9shuLxet3RGJv5eplX3nrQ4vU7yXv-03Q"/>
+<div class="absolute inset-0 bg-stone-900/60 backdrop-blur-[1px]"></div>
+<div class="relative z-10 max-w-xl px-6 space-y-6">
+<span class="text-xs uppercase tracking-widest text-stone-300 font-medium">Somewhere you can just be</span>
+<h2 class="text-3xl sm:text-5xl font-serif font-light text-white leading-tight">
+            Sisakan ruang untuk diri sendiri.
+          </h2>
+<div>
+<a class="inline-flex items-center gap-2 px-8 py-3.5 bg-white hover:bg-stone-100 text-stone-900 rounded-full text-xs font-semibold tracking-wide shadow-lg transition-all" href="#reservasi">
+<span>Rencanakan tinggal Anda</span>
+<span>↗</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: BannerCTA -->
+</main>
+<!-- BEGIN: Footer -->
+<footer class="border-t border-stone-200 bg-[#FAF8F5] pt-16 pb-12">
+<div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 pb-12 border-b border-stone-200">
+<div>
+<span class="font-serif tracking-widest text-xl font-medium text-stone-900 uppercase">AMARA</span>
+<p class="text-xs text-stone-500 mt-1">Heningnya santai di Ubud. Setiap sudut dirancang dengan sengaja.</p>
+</div>
+<nav class="flex flex-wrap gap-8 text-xs font-medium text-stone-600">
+<a class="hover:text-stone-900 transition-colors" href="#tentang">Tentang</a>
+<a class="hover:text-stone-900 transition-colors" href="#ruang">Galeri</a>
+<a class="hover:text-stone-900 transition-colors" href="#">Fasilitas</a>
+<a class="hover:text-stone-900 transition-colors" href="#">FAQ</a>
+<a class="hover:text-stone-900 transition-colors font-semibold text-stone-900" href="#reservasi">Rencanakan Menginap ↗</a>
+</nav>
+</div>
+<div class="flex flex-col sm:flex-row justify-between items-center text-[11px] text-stone-400 pt-8 gap-4">
+<p>© 2026 Amara Private Villa Bali. Hak cipta dilindungi.</p>
+<div class="flex gap-6">
+<a class="hover:underline" href="#">Kebijakan Privasi</a>
+<a class="hover:underline" href="#">Ketentuan Layanan</a>
+<a class="hover:underline" href="#">Instagram</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: Footer -->
+</body></html>
